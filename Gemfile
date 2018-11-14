@@ -67,6 +67,7 @@ gem "ri_cal"
 gem "yajl-ruby", platform: "ruby"
 gem "json", platform: "jruby"
 
+gem "rake"
 group :development, :test do
   gem "airbrake", "~> 4.3.5", require: false
   gem "pry-rails"
@@ -82,7 +83,6 @@ group :development do
 end
 
 group :test do
-  gem "rake"
   gem "rspec"
   gem "rspec-rails", require: false
   gem "rspec-activemodel-mocks"
